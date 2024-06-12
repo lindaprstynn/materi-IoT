@@ -1,0 +1,23 @@
+// https://wokwi.com/projects/400390161805720577
+
+void setup() {
+  pinMode(25, OUTPUT);
+  pinMode(26, OUTPUT);
+  pinMode(27, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(25, 1);
+  digitalWrite(26, 0);
+  digitalWrite(27, 0);
+  delay(500); 
+  digitalWrite(25, 0);
+  digitalWrite(26, 1);
+  digitalWrite(27, 0);
+  delay(500);
+  digitalWrite(25, 0);
+  digitalWrite(26, 0);
+  digitalWrite(27, 1);
+  delay(500);
+}
+
